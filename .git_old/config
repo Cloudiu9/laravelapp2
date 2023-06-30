@@ -1,0 +1,11 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = https://github.com/Cloudiu9/laravelapp2.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "Project"]
+	remote = origin
+	merge = refs/heads/Project

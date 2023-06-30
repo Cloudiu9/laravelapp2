@@ -1,0 +1,8 @@
+0000000000000000000000000000000000000000 fb42aa2507ab5b82635e3899724ddd699c58ec9f Bordea Claudiu <claudiubordea5@gmail.com> 1687501848 +0300	commit (initial): Laravel template
+fb42aa2507ab5b82635e3899724ddd699c58ec9f 513f05c774caf1159ad5712928b468642a2d8080 Bordea Claudiu <claudiubordea5@gmail.com> 1687534074 +0300	pull origin: Fast-forward
+513f05c774caf1159ad5712928b468642a2d8080 4dcffe3e0232e56010a4ab76e3f13811001f18ee Bordea Claudiu <claudiubordea5@gmail.com> 1687537025 +0300	commit: test
+4dcffe3e0232e56010a4ab76e3f13811001f18ee e97d4041a5cdfffb8d6c77739c54e638e5daa797 Bordea Claudiu <claudiubordea5@gmail.com> 1687546312 +0300	commit: A functional authentification system implemented
+e97d4041a5cdfffb8d6c77739c54e638e5daa797 776cae3ffc2eec1b0279a19fd690a2fbd5ae1598 Bordea Claudiu <claudiubordea5@gmail.com> 1687615187 +0300	commit: Start of the ChatBot implementation
+776cae3ffc2eec1b0279a19fd690a2fbd5ae1598 41377319e82a2d31dabe9d48de345e021105040e Bordea Claudiu <claudiubordea5@gmail.com> 1687628164 +0300	commit: A basic frontend with OpenAI integration
+41377319e82a2d31dabe9d48de345e021105040e 4dba5ec879ecf9799f1bbefca26fee3ca922cf7f Bordea Claudiu <claudiubordea5@gmail.com> 1687802670 +0300	commit: Changed from basic html/css to React
+4dba5ec879ecf9799f1bbefca26fee3ca922cf7f 9619cf481e03f98574ba72f4b90ead48f7e2b439 Bordea Claudiu <claudiubordea5@gmail.com> 1687885445 +0300	commit: A half-fix for the Auth system.
