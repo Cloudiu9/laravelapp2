@@ -13,7 +13,7 @@
     @inertiaHead
 </head>
 <body class="font-sans antialiased">
-    @include('welcome')
+    @include('dashboard')
 
     <div id="react-app">
         @inertia
