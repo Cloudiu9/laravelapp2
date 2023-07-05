@@ -59,8 +59,7 @@
     <script>
         var botmanWidget = {
             aboutText: 'Botman Weather',
-            introMessage: "Hello! Please type 'Weather in' followed by any city."
-        };
+            introMessage: 'Hello! Please type <strong>weather in</strong> followed by any city.<br><br>Type <strong>fun fact</strong> for a random fun fact.<br><br>Type <strong>info</strong> followed by the name of a celebrity for information about them.<br><br>Type <strong>joke</strong> for a random joke.<br><br>Type <strong>hobby</strong> for a random hobby.'};
     </script>
 
 
