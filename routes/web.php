@@ -20,11 +20,12 @@ Route::get('/', function () {
     return view('auth.register');
 });
 
-Route::post('send', [ChatBotController::class, 'sendChat']);
+Route::post('send', [ChatBotController::class, 'sendChat'])
+->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::post('/botman', function(){
     app('botman')->listen();
-});
+})->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
