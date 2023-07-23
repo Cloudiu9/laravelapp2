@@ -3,6 +3,7 @@
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ChatBotController;
+use App\Http\Controllers\ImageRecognitionController;
 
 
 /*
@@ -36,5 +37,15 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
+
+Route::get('/recognize-image', [ImageRecognitionController::class, 'recognizeImage']);
+
+Route::get('/recognize-image', function () {
+    return view('recognize-image');
+})->name('recognize-image-form');
+
+Route::post('/recognize-image', [ImageRecognitionController::class, 'recognizeImage'])
+    ->name('recognize-image');
+
 
 require __DIR__.'/auth.php';

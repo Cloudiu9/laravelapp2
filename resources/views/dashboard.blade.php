@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
@@ -53,7 +52,7 @@
     <div id="react-app"></div>
 
     <!-- Load the React app -->
-    <script src="{{ asset('/react/index-e710406c.js') }}"></script>
+    <script src="{{ asset('/react/index-de48bcfa.js') }}"></script>
 
     <script src='https://cdn.jsdelivr.net/npm/botman-web-widget@0/build/js/widget.js'></script>
     <script>

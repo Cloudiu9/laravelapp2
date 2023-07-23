@@ -13,7 +13,7 @@
     @inertiaHead
 </head>
 <body class="font-sans antialiased">
-    @include('dashboard')
+    @yield('content') <!-- This is where the content from recognize-image.blade.php will be injected -->
 
     <div id="react-app">
         @inertia
